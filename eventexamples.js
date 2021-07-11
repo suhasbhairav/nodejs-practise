@@ -14,6 +14,6 @@ var connect2handler = function twoConnected(){
 eventEmitter.on("just_data", connectHandler);
 eventEmitter.on("data_sent", function(){
     console.log("data received...");
-})
+});
 eventEmitter.emit("just_data");
 
